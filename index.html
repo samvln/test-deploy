@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="top">
+            <h1>Hi my name is Sam</h1>
+            <h3>I'm developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel exercitationem repudiandae iste nihil, unde
+                harum culpa odio eaque vero quibusdam deserunt eos! Nostrum sunt excepturi animi molestiae minus
+                aspernatur corporis?F</h5>
+
+            <div class="image-box">
+                <img src="images.jpg" alt="">
+            </div>
+        </div>
+        <div class="bottom">
+            <ol>
+                <li class="b">b</li>
+                <li>c</li>
+                <li class="test">a</li>
+                <li>d</li>
+                <li>e</li>
+            </ol>
+            <span class="d">
+                <p class="d">dd</p>
+            </span>
+            <span>0</span>
+            <span class="span_1">1</span>
+            <span>2</span>
+            <div class="input_1">
+                <input id="tx" value="" type="email" placeholder="email..." required>
+                <input id="name" value="" type="text"  placeholder="name..." required>
+                <input type="password" id="pss"
+                value=""
+                placeholder="password" required>
+                <button id="btn">click</button>
+                <span>My email: </h1>
+                    <span id="show"></span>
+                    <span id="show_name"></span>
+                    <span id="show_id"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    
+
+    <script>
+        const tx = document.getElementById("tx")
+        const name = document.getElementById("name")
+
+        const pss = document.getElementById("pss")
+        const show = document.getElementById("show")
+        const show_name = document.getElementById("show_name")
+        const show_id = document.getElementById("show_id")
+        var ss = document.getElementById("btn");
+
+        const myFunction = () => {
+        
+            show.innerHTML = tx.value
+            show_name.innerHTML = name.value
+            show_id.innerHTML = pss.value
+
+
+     
+        }
+
+        ss.addEventListener("click", myFunction);
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Second</title>
+</head>
+
+<body>
+    <div class="flow">
+        <div class="menu-bar">
+            <div class="left">1</div>
+            <div class="right">
+                <div class="menu">
+                    <select name="menu" id="mySelect">
+                        <option value="#" selected>select</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <select name="menu" id="mySelect">
+                        <option value="#" selected>select</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <select name="menu" id="mySelect">
+                        <option value="#" selected>select</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <select name="menu" id="mySelect">
+                        <option value="#" selected>select</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+
+                </div>
+            </div>
+        </div>
+        <div class="banner">banner</div>
+        <div class="list">
+            <div class="left">1</div>
+            <div class="middle">2</div>
+            <div class="right">3</div>
+        </div>
+        <div class="foot">
+            <div class="left">1</div>
+            <div class="middle">2</div>
+            <div class="right">3</div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("mySelect").addEventListener("mouseover", function () {
+            this.size = this.length;
+        });
+
+        document.getElementById("mySelect").addEventListener("mouseout", function () {
+            this.size = 0;
+        });
+    </script>
+</body>
+
+</html>
